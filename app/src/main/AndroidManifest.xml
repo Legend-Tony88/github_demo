@@ -2,7 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+
 <!--    I am working on main branch now-->
+
+<!--    I am on new branch called branch1-->
+<!--    I am testing one more feature-->
+
 
     <application
         android:allowBackup="true"
