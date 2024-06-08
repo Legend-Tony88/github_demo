@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
 <!--    I am on new branch called branch1-->
+<!--    I am testing one more feature-->
 
     <application
         android:allowBackup="true"
