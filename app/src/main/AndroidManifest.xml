@@ -2,13 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
-<!--    I am working on main branch now-->
-
-<!--    I am on new branch called branch1-->
-<!--    I am testing one more feature-->
-
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -19,11 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Github_tutorial_merge"
         tools:targetApi="31">
-
+        <activity
+            android:name=".activity_In_Main"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
-
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
