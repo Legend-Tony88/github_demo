@@ -2,10 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
-<!--    I am doing changes in branch1 don't do anything here-->
-
-
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -16,9 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Github_tutorial_merge"
         tools:targetApi="31">
-        <activity
-            android:name=".activity_In_Branch1"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
